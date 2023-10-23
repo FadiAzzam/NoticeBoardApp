@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NoticeBoardApp/static/css/main.7b9c9bcc.css",
-    "main.js": "/NoticeBoardApp/static/js/main.299ab9dc.js",
+    "main.css": "/NoticeBoardApp/static/css/main.fd230adb.css",
+    "main.js": "/NoticeBoardApp/static/js/main.ee270bda.js",
     "index.html": "/NoticeBoardApp/index.html",
-    "main.7b9c9bcc.css.map": "/NoticeBoardApp/static/css/main.7b9c9bcc.css.map",
-    "main.299ab9dc.js.map": "/NoticeBoardApp/static/js/main.299ab9dc.js.map"
+    "main.fd230adb.css.map": "/NoticeBoardApp/static/css/main.fd230adb.css.map",
+    "main.ee270bda.js.map": "/NoticeBoardApp/static/js/main.ee270bda.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9c9bcc.css",
-    "static/js/main.299ab9dc.js"
+    "static/css/main.fd230adb.css",
+    "static/js/main.ee270bda.js"
   ]
 }
