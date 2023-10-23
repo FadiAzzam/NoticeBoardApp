@@ -61,7 +61,7 @@ export const TodoItem = (props: { todo: Todo }) => {
       layout
       key={todo.id}
       className={cn(
-        "p-5 rounded-lg border border-zinc-50 shadow",
+        "p-5 rounded-lg border border-gray-500 shadow",
         todo.status === "completed" && "bg-opacity-50 text-zinc-500"
       )}
     >
@@ -113,14 +113,14 @@ export const TodoItem = (props: { todo: Todo }) => {
             <div className="flex items-center gap-2">
               <button
                 onClick={() => handleEdit(todo.id, todo.text)}
-                className="flex items-center gap-1 "
+                className="flex items-center gap-1 hover:text-gray-200"
               >
                 <FaRegEdit />
                 Edit
               </button>
               <button
                 onClick={() => handleDelete(todo.id)}
-                className="flex items-center gap-1 text-red-500"
+                className="flex items-center gap-1 text-red-500 hover:text-red-600"
               >
                 <RiDeleteBin7Line />
                 Delete

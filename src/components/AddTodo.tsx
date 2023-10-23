@@ -39,7 +39,7 @@ const AddTodo = () => {
 
         <button
           type="submit"
-          className="px-5 py-3 text-sm font-normal text-white bg-blue-600 active:scale-95 rounded-lg border"
+          className="px-5 py-3 text-sm font-normal text-white bg-blue-600 active:scale-95 rounded-lg border border-blue-500"
         >
           Submit
         </button>
